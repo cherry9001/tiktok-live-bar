@@ -31,12 +31,12 @@ if not exist "%BRIDGE_DIR%\node_modules\express\package.json" (
     ) else (
         call npm install
     )
-    set "NPM_RESULT=%ERRORLEVEL%"
-    popd
-    if not "%NPM_RESULT%"=="0" (
+    if errorlevel 1 (
+        popd
         echo [LOI] npm install khong thanh cong.
         goto :failed
     )
+    popd
 ) else (
     echo [1/3] Thu vien Node.js da san sang.
 )
