@@ -8,6 +8,14 @@
 
 ---
 
+## 🎬 Video demo thực tế
+
+[![Xem demo ÔNG CHÚ MMO trên TikTok LIVE](docs/media/live-demo.png)](https://www.facebook.com/100004611824062/videos/pcb.3562459197251106/37620662724214707)
+
+> Nhấn vào ảnh để xem video demo đầy đủ trên Facebook.
+
+---
+
 ## ✨ Tính năng
 
 - 🕺 **Sàn nhảy 3D realtime** — Người xem TikTok tham gia sàn nhảy với nhân vật 3D
