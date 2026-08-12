@@ -1,9 +1,7 @@
 /* ═══════════════════════════════════════════════════════════
    ÔNG CHÚ MMO — TikTok Live Bridge Server
    © 2025 ÔNG CHÚ MMO — ongchummo.com
-   Zalo: 0977.896.644 | Website: https://ongchummo.com
-   Phần mềm thuộc sở hữu của ÔNG CHÚ MMO. Nghiêm cấm sao chép
-   hoặc phân phối lại khi chưa được cấp phép bằng văn bản.
+   Phát hành theo giấy phép MIT. Xem file ../LICENSE.
 ═══════════════════════════════════════════════════════════ */
 
 const express = require('express');
@@ -127,6 +125,10 @@ app.get('/', (_req, res) => res.redirect('/control.html'));
 app.use(express.static(publicDir, staticOptions));
 app.use('/assets', express.static(assetsDir, staticOptions));
 app.use('/vendor/three', express.static(path.join(__dirname, 'node_modules', 'three', 'build'), staticOptions));
+
+app.get('/api/health', (_req, res) => {
+    res.json({ status: 'ok', appId: 'ongchu-mmo-live-bridge', version: '1.0.0' });
+});
 
 app.get('/api/config', (_req, res) => {
     res.json({ game: gameConfig, gifts: giftConfig, master: masterConfig, observedGifts: [...observedGifts.values()] });

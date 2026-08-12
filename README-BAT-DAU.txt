@@ -12,9 +12,15 @@ Yeu cau:
 - Node.js 20 tro len.
 - TikFinity neu su dung LIVE_PROVIDER=tikfinity.
 
-Chay Node Bridge:
+Chay nhanh tren Windows:
+1. Nhan dup run.bat.
+2. Launcher tu kiem tra Node.js, cai thu vien neu thieu, mo Bridge, Game va Control Panel.
+3. Neu cong 3000 dang bi chiem, dong dung chuong trinh duoc bao roi chay lai.
+   Launcher khong tu tat chuong trinh khac de tranh mat du lieu.
+
+Chay Node Bridge thu cong:
 1. Mo PowerShell tai thu muc TikTokBridge.
-2. Chay: npm install
+2. Chay: npm ci
 3. Chay: npm start
 4. Mo: http://127.0.0.1:3000/control.html
 

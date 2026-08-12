@@ -34,6 +34,14 @@
 
 ## 🚀 Cài đặt & Chạy
 
+### Cách nhanh nhất trên Windows
+
+Nhấp đúp `run.bat`. Launcher sẽ kiểm tra Node.js, tự cài thư viện khi cần,
+khởi động TikTok Bridge, mở game và Control Panel.
+
+> `run.bat` không tự tắt chương trình khác đang dùng cổng 3000. Nếu launcher báo
+> xung đột cổng, hãy đóng đúng chương trình được báo rồi chạy lại để tránh mất dữ liệu.
+
 ### Bước 1 — Clone repo
 
 ```bash
@@ -41,25 +49,25 @@ git clone https://github.com/<your-username>/ongchummo-tiktok-live.git
 cd ongchummo-tiktok-live
 ```
 
-### Bước 2 — Cài đặt Node Bridge
+### Chạy thủ công — Cài đặt Node Bridge
 
 ```bash
 cd TikTokBridge
-cp .env.example .env    # Tùy chỉnh nếu cần
-npm install
+copy .env.example .env  # Tùy chỉnh nếu cần (Windows)
+npm ci
 npm start
 ```
 
-### Bước 3 — Mở Control Panel
+### Mở Control Panel
 
 Truy cập [http://127.0.0.1:3000/control.html](http://127.0.0.1:3000/control.html) trên trình duyệt.
 
-### Bước 4 — Chạy Unity Game
+### Chạy Unity Game
 
 - **Nếu có file build:** Chạy `run.bat`
 - **Nếu muốn build từ source:** Mở `UnityProject/` trong Unity Hub → Build
 
-### Bước 5 — Kết nối TikTok LIVE
+### Kết nối TikTok LIVE
 
 1. Mở TikFinity Desktop → đăng nhập → bật LIVE
 2. Trong Control Panel, nhập username TikTok đang live → **Kết nối**
