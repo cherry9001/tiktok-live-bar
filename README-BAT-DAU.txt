@@ -8,15 +8,19 @@ Noi dung goi:
 - LiveAssets: cac anh huong dan co the dat trong TikTok LIVE Studio.
 
 Yeu cau:
-- Unity 6000.x (Unity 6) hoac ban tuong thich.
 - Node.js 20 tro len.
 - TikFinity neu su dung LIVE_PROVIDER=tikfinity.
+- Unity 6000.2.10f1 chi can khi tu build source.
 
 Chay nhanh tren Windows:
-1. Nhan dup run.bat.
-2. Launcher tu kiem tra Node.js, cai thu vien neu thieu, mo Bridge, Game va Control Panel.
-3. Neu cong 3000 dang bi chiem, dong dung chuong trinh duoc bao roi chay lai.
+1. Tai file OngChuMMO-Live-Windows-v1.0.3.zip trong muc Releases cua GitHub.
+2. Giai nen toan bo ZIP ra thu muc moi. Khong chay truc tiep ben trong ZIP.
+3. Cai Node.js 20 tro len, sau do nhan dup run.bat.
+4. Neu cong 3000 dang bi chiem, dong dung chuong trinh duoc bao roi chay lai.
    Launcher khong tu tat chuong trinh khac de tranh mat du lieu.
+
+Luu y: nut "Source code (zip)" cua GitHub KHONG co file game Build.
+Nguoi chi muon chay game phai tai dung file Windows trong muc Releases.
 
 Chay Node Bridge thu cong:
 1. Mo PowerShell tai thu muc TikTokBridge.
@@ -28,7 +32,7 @@ Mo source Unity:
 1. Mo Unity Hub.
 2. Add project from disk va chon thu muc UnityProject.
 3. Mo scene trong Assets/Scenes.
-4. Build Windows theo nhu cau.
+4. Dung dung Unity 6000.2.10f1 va chay build.bat.
 
 Ban source nay khong co khoa may, khong khoa TikTok, khong can kich hoat.
 Nguoi dung co the tu them he thong license, doi ten, sua code va build san pham.
