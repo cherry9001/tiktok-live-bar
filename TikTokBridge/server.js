@@ -910,6 +910,21 @@ server.listen(PORT, HOST, () => {
     console.log(`Bảng điều khiển: http://${HOST}:${PORT}/control.html`);
 });
 
+server.on('error', (err) => {
+    if (err.code === 'EADDRINUSE') {
+        console.error(`\n❌ Lỗi: Cổng ${PORT} đang bị chương trình khác chiếm.`);
+        console.error(`   Có thể bạn đã chạy server trước đó mà chưa tắt.\n`);
+        console.error(`   Cách khắc phục:`);
+        console.error(`   1. Tắt cửa sổ cmd/terminal cũ đang chạy server`);
+        console.error(`   2. Hoặc chạy lệnh: npx kill-port ${PORT}`);
+        console.error(`   3. Hoặc đổi PORT trong file .env sang số khác (vd: 3001)\n`);
+        process.exit(1);
+    } else {
+        console.error('Lỗi server:', err);
+        process.exit(1);
+    }
+});
+
 async function shutdown() {
     stopDemo();
     clearInterval(heartbeatTimer);
