@@ -13,11 +13,17 @@ Yeu cau:
 - Unity 6000.2.10f1 chi can khi tu build source.
 
 Chay nhanh tren Windows:
-1. Tai file OngChuMMO-Live-Windows-v1.0.3.zip trong muc Releases cua GitHub.
+1. Tai file OngChuMMO-Live-Windows-v1.0.4.zip trong muc Releases cua GitHub.
 2. Giai nen toan bo ZIP ra thu muc moi. Khong chay truc tiep ben trong ZIP.
 3. Cai Node.js 20 tro len, sau do nhan dup run.bat.
 4. Neu cong 3000 dang bi chiem, dong dung chuong trinh duoc bao roi chay lai.
    Launcher khong tu tat chuong trinh khac de tranh mat du lieu.
+
+Dau hieu thanh cong:
+- Cua so TikTok Bridge hien http://127.0.0.1:3000.
+- Control Panel mo tren trinh duyet va logo hien binh thuong.
+- Game TikTokLiveGameUnity mo va ket noi Node thanh cong.
+- Khong co nhac van chay duoc; tu them MP3/WAV/OGG vao Build\DJ_MUSIC.
 
 Luu y: nut "Source code (zip)" cua GitHub KHONG co file game Build.
 Nguoi chi muon chay game phai tai dung file Windows trong muc Releases.
