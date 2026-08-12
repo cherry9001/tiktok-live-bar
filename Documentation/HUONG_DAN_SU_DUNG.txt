@@ -1,6 +1,6 @@
 ONG CHU MMO LIVE - HUONG DAN SU DUNG
 
-1. Nhan dup run.bat (hoac START_UNITY_GAME.cmd).
+1. Nhan dup run.bat.
 2. Cho game mo va hien NODE ONLINE.
 3. Thu nhanh bang DEMO 30 hoac DEMO 200.
 4. Ket noi live that: nhap TikTok username dang live, khong nhap dau @, roi bam KET NOI.

@@ -10,6 +10,10 @@ const path = require('path');
 const fs = require('fs/promises');
 const WebSocket = require('ws');
 const { TikTokLiveConnection } = require('tiktok-live-connector');
+const { getServerSettings, loadEnvironmentFile } = require('./src/config/environment');
+
+loadEnvironmentFile();
+
 const { normalizeTikFinityMessage } = require('./src/tiktok/normalize-tikfinity-event');
 const {
     normalizeChat,
@@ -36,9 +40,7 @@ const {
 const app = express();
 const server = http.createServer(app);
 
-const PORT = Number(process.env.PORT) || 3000;
-const HOST = process.env.HOST || '127.0.0.1';
-const ALLOW_LAN = process.env.ALLOW_LAN === '1';
+const { port: PORT, host: HOST, allowLan: ALLOW_LAN } = getServerSettings();
 const wss = new WebSocket.Server({
     noServer: true,
     maxPayload: 32 * 1024,
@@ -919,7 +921,8 @@ server.on('error', (err) => {
         console.error(`   Cách khắc phục:`);
         console.error(`   1. Tắt cửa sổ cmd/terminal cũ đang chạy server`);
         console.error(`   2. Hoặc chạy lệnh: npx kill-port ${PORT}`);
-        console.error(`   3. Hoặc đổi PORT trong file .env sang số khác (vd: 3001)\n`);
+        console.error(`   3. Nếu chỉ dùng Control Panel, có thể đổi PORT trong file .env.`);
+        console.error(`      Bản game dựng sẵn cần PORT=3000.\n`);
         process.exit(1);
     } else {
         console.error('Lỗi server:', err);
