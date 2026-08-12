@@ -1,0 +1,33 @@
+{
+  "liveProvider": "tikfinity",
+  "tikfinityWsUrl": "ws://127.0.0.1:21213/",
+  "maxPlayers": 400,
+  "playerTtlMs": 600000,
+  "partyEnergyGoal": 1000,
+  "commands": {
+    "dance": ["dance"],
+    "walk": ["đi vòng", "di vong", "walk"],
+    "changeCharacter": ["đổi nv", "doi nv", "đổi nhân vật"]
+  },
+  "spotlight": {
+    "minimumMs": 4000,
+    "maximumMs": 15000,
+    "maximumQueue": 8
+  },
+  "combo": {
+    "windowMs": 5000,
+    "maximum": 99
+  },
+  "beat": {
+    "bpm": 128,
+    "beatsPerBar": 4,
+    "dropEveryBars": 8,
+    "dropBars": 2
+  },
+  "music": {
+    "enabled": true,
+    "src": "/assets/music/vinahouse-nonstop.m4a",
+    "volume": 0.35,
+    "loop": true
+  }
+}

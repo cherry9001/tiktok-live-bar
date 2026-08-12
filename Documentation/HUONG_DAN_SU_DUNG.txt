@@ -1,0 +1,57 @@
+ONG CHU MMO LIVE - HUONG DAN SU DUNG
+
+1. Nhan dup run.bat (hoac START_UNITY_GAME.cmd).
+2. Cho game mo va hien NODE ONLINE.
+3. Thu nhanh bang DEMO 30 hoac DEMO 200.
+4. Ket noi live that: nhap TikTok username dang live, khong nhap dau @, roi bam KET NOI.
+
+KET NOI LIVE THAT
+
+Nguoi xem gui chat, like, follow, share hoac gift se thay NPC tren san.
+Ten va avatar TikTok duoc cap nhat tu dong; neu TikTok chua tra anh, game dung avatar du phong de khong bi o den.
+Neu Node hoac duong truyen bi mat tam thoi, game va cau noi TikTok se tu ket noi lai.
+Khong can dong game khi bi rot mang ngan han.
+
+PHIM TAT
+
+F1  An/hien bang dieu khien.
+F2  Bat/tat nen xanh chroma de ghep OBS.
+F11 Bat/tat toan man hinh.
+
+LENH CHAT
+
+nhay / dance   Nhan vat nhay.
+di vong / walk Nhan vat nhay buoc tai cho, khong roi vi tri.
+doi nv         Doi nhan vat.
+
+KHI CO GIFT
+
+Camera zoom vao dung vi tri cua nguoi tang qua.
+Top 1, Top 2 va Top 3 dung tren ba buc rieng ngay truoc ban DJ.
+Nguoi choi binh thuong luon mo va trong suot de tao cam giac dam dong.
+Khi mot nguoi tang qua, nguoi do se sang ro va camera zoom lai.
+Nguoi tang hien ten, avatar, banner, canh va hieu ung theo gia tri gift.
+Sau khi hieu ung ket thuc, nguoi khong thuoc Top 3 se tro lai trang thai mo.
+
+OBS
+
+Capture cua so OngChuMMO_Live.exe bang Game Capture.
+Neu muon ghep len video, bam F2 va dung Chroma Key mau xanh trong OBS.
+Nhac duoc mo rieng trong OBS hoac TikTok Live Studio.
+
+VIDEO DJ
+
+Tha file MP4, MOV, M4V hoac WebM vao thu muc DJ_VIDEO.
+Game tu phat lap video tren man hinh sau ban DJ va luon tat am thanh video.
+Nen dung video 16:9, do phan giai 1280x720 hoac 1920x1080.
+
+LOG LOI
+
+Neu game khong mo, xem file:
+UnityProject/Logs/player.log
+
+LIEN HE
+
+Website : https://ongchummo.com
+Zalo    : 0977.896.644
+Email   : toanhvan90@gmail.com

@@ -1,0 +1,118 @@
+{
+  "byGiftId": {},
+  "byGiftName": [
+    {
+      "aliases": ["rose", "hoa hồng", "hoa hong"],
+      "action": "camera",
+      "durationMs": 4000,
+      "label": "ZOOM CAMERA"
+    },
+    {
+      "aliases": ["tiktok", "tik tok"],
+      "action": "change",
+      "durationMs": 2500,
+      "label": "ĐỔI NHÂN VẬT"
+    },
+    {
+      "aliases": ["finger heart", "trái tim ngón tay", "trai tim ngon tay", "tim ngón tay", "tim ngon tay"],
+      "action": "walk",
+      "durationMs": 5000,
+      "label": "ĐI VÒNG"
+    },
+    {
+      "aliases": ["portal", "cổng không gian", "cong khong gian"],
+      "action": "grow",
+      "durationMs": 8000,
+      "label": "NHÂN VẬT KHỔNG LỒ"
+    },
+    {
+      "aliases": ["galaxy", "interstellar", "ngôi sao", "ngoi sao", "tiktok universe", "universe"],
+      "action": "topdj",
+      "durationMs": 12000,
+      "label": "TOP DJ",
+      "fireworkBursts": 6
+    }
+  ],
+  "evolutionEffectsEnabled": true,
+  "evolutionAuraEnabled": false,
+  "evolutionTiers": [
+    {
+      "minimum": 10,
+      "tier": 1,
+      "label": "TÂN BINH SÀN QUẨY",
+      "variant": "aura"
+    },
+    {
+      "minimum": 50,
+      "tier": 2,
+      "label": "DÂN CHƠI NEON",
+      "variant": "neon"
+    },
+    {
+      "minimum": 200,
+      "tier": 3,
+      "label": "VUA SÀN NHẢY",
+      "variant": "fire"
+    },
+    {
+      "minimum": 1000,
+      "tier": 4,
+      "label": "CHỦ TỊCH SÀN QUẨY",
+      "variant": "royal"
+    }
+  ],
+  "diamondBands": [
+    {
+      "minimum": 1000,
+      "action": "fireworks",
+      "durationMs": 15000,
+      "label": "ĐẠI GIA MỞ TIỆC",
+      "fireworkBursts": 6
+    },
+    {
+      "minimum": 500,
+      "action": "fireworks",
+      "durationMs": 12000,
+      "label": "MƯA PHÁO HOA",
+      "fireworkBursts": 4
+    },
+    {
+      "minimum": 200,
+      "action": "vip",
+      "durationMs": 10000,
+      "label": "SIÊU VIP CAMERA"
+    },
+    {
+      "minimum": 100,
+      "action": "vip",
+      "durationMs": 8000,
+      "label": "VIP CAMERA"
+    },
+    {
+      "minimum": 50,
+      "action": "medal",
+      "durationMs": 90000,
+      "spotlightMs": 7000,
+      "label": "VUA SÀN NHẢY",
+      "variant": "fire"
+    },
+    {
+      "minimum": 20,
+      "action": "camera",
+      "durationMs": 6000,
+      "label": "CAMERA SÀN NHẢY"
+    },
+    {
+      "minimum": 5,
+      "action": "dance",
+      "durationMs": 5000,
+      "label": "NHẢY CỰC SUNG"
+    },
+    {
+      "minimum": 1,
+      "action": "dance",
+      "durationMs": 3000,
+      "label": "CẢM ƠN QUÀ"
+    }
+  ]
+}

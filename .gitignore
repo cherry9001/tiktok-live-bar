@@ -1,0 +1,72 @@
+# ═══════════════════════════════════════════════
+#  .gitignore — ÔNG CHÚ MMO Live
+#  Node.js + Unity + Media
+# ═══════════════════════════════════════════════
+
+# ── Node.js ──────────────────────────────────
+node_modules/
+npm-debug.log*
+.env
+.env.local
+.env.*.local
+
+# ── Unity (Library, cache, build) ────────────
+UnityProject/Library/
+UnityProject/Temp/
+UnityProject/Logs/
+UnityProject/UserSettings/
+UnityProject/MemoryCaptures/
+UnityProject/obj/
+UnityProject/Build/
+UnityProject/Builds/
+UnityProject/CommercialBuild/
+UnityProject/Assets/AssetStoreTools/
+
+# ── Compiled Build output ────────────────────
+Build/
+
+# ── Build logs ───────────────────────────────
+build_log.txt
+
+# ── Media lớn (người dùng tự thêm) ──────────
+DJ_MUSIC/*.mp3
+DJ_MUSIC/*.MP3
+DJ_MUSIC/*.wav
+DJ_MUSIC/*.WAV
+DJ_MUSIC/*.ogg
+DJ_MUSIC/*.OGG
+DJ_MUSIC/*.flac
+
+DJ_VIDEO/*.mp4
+DJ_VIDEO/*.MP4
+DJ_VIDEO/*.mov
+DJ_VIDEO/*.MOV
+DJ_VIDEO/*.m4v
+DJ_VIDEO/*.webm
+DJ_VIDEO/*.mp4.bak
+
+# ── OS & IDE ─────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.suo
+*.csproj.user
+*.unityproj
+*.sln
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ── Visual Studio / Rider / VSCode ───────────
+.vs/
+.vscode/
+.idea/
+*.userprefs
+
+# ── Crash reports ────────────────────────────
+sysinfo.txt
+crashlytics-build.properties
