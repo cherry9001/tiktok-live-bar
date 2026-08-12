@@ -126,7 +126,7 @@ namespace TikTokLiveGame
 
             // Group club elements and push them further back to create a huge dance space
             GameObject clubRoot = new GameObject("ClubRoot");
-            foreach (GameObject go in Object.FindObjectsOfType<GameObject>())
+            foreach (GameObject go in Object.FindObjectsByType<GameObject>(FindObjectsSortMode.None))
             {
                 if (go.transform.parent == null && go.name != "Invisible Dance Floor" && !go.name.Contains("AmPhuBackdrop") && go.name != "Main Camera" && go != clubRoot)
                 {
@@ -551,7 +551,7 @@ namespace TikTokLiveGame
             CreateFixturePart("Lens", fixture.transform, PrimitiveType.Sphere, new Vector3(0f, 0.08f, 0.29f), wash ? new Vector3(0.16f, 0.16f, 0.055f) : new Vector3(0.125f, 0.125f, 0.045f), lens);
             MovingHeadFixture head = fixture.AddComponent<MovingHeadFixture>();
             head.Initialize(origin, color, phase, style, castsLight);
-            if (castsLight) head.light.cullingMask = -1;
+            if (castsLight) head.GetComponent<Light>().cullingMask = -1;
         }
 
         private static void CreateFixturePart(string name, Transform parent, PrimitiveType type, Vector3 localPosition, Vector3 localScale, Material material, Vector3 localEuler = default)
