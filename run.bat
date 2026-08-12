@@ -80,7 +80,7 @@ if not defined BRIDGE_READY (
 :launch_game
 echo [3/3] Dang khoi dong Game...
 if not "%BRIDGE_PORT%"=="3000" (
-    echo [CANH BAO] Bản game dung san chi ket noi cong 3000.
+    echo [CANH BAO] Ban game dung san chi ket noi cong 3000.
     echo Bridge va Control Panel van chay tren cong %BRIDGE_PORT%, nhung game se khong duoc mo.
     goto :open_control
 )
