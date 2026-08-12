@@ -13,7 +13,7 @@ Yeu cau:
 - Unity 6000.2.10f1 chi can khi tu build source.
 
 Chay nhanh tren Windows:
-1. Tai file OngChuMMO-Live-Windows-v1.0.4.zip trong muc Releases cua GitHub.
+1. Tai file OngChuMMO-Live-Windows-v1.0.5.zip trong muc Releases cua GitHub.
 2. Giai nen toan bo ZIP ra thu muc moi. Khong chay truc tiep ben trong ZIP.
 3. Cai Node.js 20 tro len, sau do nhan dup run.bat.
 4. Neu cong 3000 dang bi chiem, dong dung chuong trinh duoc bao roi chay lai.
@@ -23,7 +23,7 @@ Dau hieu thanh cong:
 - Cua so TikTok Bridge hien http://127.0.0.1:3000.
 - Control Panel mo tren trinh duyet va logo hien binh thuong.
 - Game TikTokLiveGameUnity mo va ket noi Node thanh cong.
-- Khong co nhac van chay duoc; tu them MP3/WAV/OGG vao Build\DJ_MUSIC.
+- Goi Windows da kem Build\DJ_MUSIC\nhacnen.MP3; co the thay bang nhac cua ban.
 
 Luu y: nut "Source code (zip)" cua GitHub KHONG co file game Build.
 Nguoi chi muon chay game phai tai dung file Windows trong muc Releases.
@@ -44,7 +44,7 @@ Ban source nay khong co khoa may, khong khoa TikTok, khong can kich hoat.
 Nguoi dung co the tu them he thong license, doi ten, sua code va build san pham.
 
 Luu y:
-- Thu muc DJ_MUSIC khong kem bai nhac thuong mai. Hay tu them nhac co ban quyen.
+- Chi su dung va chia se nhac khi ban co quyen hop le.
 - Tai nguyen ben thu ba van phai tuan theo dieu khoan cua nha cung cap.
 - Xem file LICENSE de biet chi tiet giay phep MIT.
 

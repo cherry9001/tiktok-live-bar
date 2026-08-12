@@ -44,7 +44,7 @@
 
 ### Cách nhanh nhất trên Windows
 
-1. Tải [`OngChuMMO-Live-Windows-v1.0.4.zip`](https://github.com/cherry9001/tiktok-live-bar/releases/latest/download/OngChuMMO-Live-Windows-v1.0.4.zip) trong mục **Releases**.
+1. Tải [`OngChuMMO-Live-Windows-v1.0.5.zip`](https://github.com/cherry9001/tiktok-live-bar/releases/latest/download/OngChuMMO-Live-Windows-v1.0.5.zip) trong mục **Releases**.
 2. Giải nén toàn bộ ZIP ra một thư mục mới. Không chạy trực tiếp bên trong ZIP.
 3. Cài [Node.js 20 LTS trở lên](https://nodejs.org/) nếu máy chưa có.
 4. Nhấp đúp `run.bat`. Launcher tự cài thư viện, mở Bridge, Game và Control Panel.
@@ -56,7 +56,7 @@ Sau khi chạy `run.bat` lần đầu:
 - Cửa sổ **TikTok Bridge** hiển thị địa chỉ `http://127.0.0.1:3000`.
 - Trình duyệt mở Control Panel và logo ÔNG CHÚ MMO hiển thị bình thường.
 - Game mở với cửa sổ `TikTokLiveGameUnity` và báo kết nối Node thành công.
-- Nếu chưa thêm nhạc, game vẫn chạy và yêu cầu thả MP3/WAV/OGG vào `Build/DJ_MUSIC`.
+- Gói Windows đã kèm `Build/DJ_MUSIC/nhacnen.MP3`; có thể thay bằng MP3/WAV/OGG của bạn.
 
 Luồng trên đã được kiểm thử trọn vẹn từ ZIP sạch trên Windows 11: launcher tự
 chạy `npm ci`, Bridge/Control Panel/WebSocket hoạt động và game kết nối cổng 3000.
